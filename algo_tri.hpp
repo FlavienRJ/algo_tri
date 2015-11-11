@@ -16,7 +16,7 @@ void bubble_sort(std::vector<T>& par)
   while ((s>0) and e)
   {
     e = false;
-    for (int i = 1; i < s-1; i++)
+    for (int i = 0; i < s-1; i++)
     {
       if (par[i]>par[i+1])
       {
@@ -36,7 +36,7 @@ void selection_sort(std::vector<T>& par)
   int s = par.size();
   int min = 0;
   T tmp;
-  for (int i = 1; i < s-1; i++)
+  for (int i = 0; i < s-1; i++)
   {
     min = i;
     for (int j = i+1; j < s; j++)

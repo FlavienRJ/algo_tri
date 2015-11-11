@@ -13,9 +13,9 @@ int main(int argc, char const *argv[])
   int const size = 10;
   populate_tab(tab,size);
   print_tab(tab);
-  //bubble_sort(tab);     //0.557s /10*5 /11.29 /1000 /
+  bubble_sort(tab);     //0.557s /10*5 /11.29 /1000 /
   //selection_sort(tab);  //0.413s        /12.95
-  insertion_sort(tab);    //0.306s    /7.3
+  //insertion_sort(tab);    //0.306s    /7.3
   print_tab(tab);
 
   timer.stop();
