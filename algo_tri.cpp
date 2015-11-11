@@ -1,5 +1,6 @@
 #include "algo_tri.hpp"
 
+Tri::Tri(){}
 /*void bubble_sort(std::vector<int>& par)
 {
   int s = par.size();
